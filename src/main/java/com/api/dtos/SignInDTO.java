@@ -4,7 +4,7 @@ import org.hibernate.validator.constraints.Length;
 import org.hibernate.validator.constraints.Email;
 import org.hibernate.validator.constraints.NotEmpty;
 
-public class SingInDTO {
+public class SignInDTO {
     @NotEmpty @Email @Length(min = 5, max = 50)
     private String email;
 
