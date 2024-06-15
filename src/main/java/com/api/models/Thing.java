@@ -12,7 +12,7 @@ public class Thing {
     private String description;
     private String give;
 
-    public Things(String id, String idUser, String name, String description, String give) {
+    public Thing(String id, String idUser, String name, String description, String give) {
         this.id = id;
         this.idUser = idUser;
         this.name = name;
